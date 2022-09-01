@@ -2,7 +2,7 @@ from .strong_sort import StrongSORT
 
 
 __all__ = ['StrongSORT', 'build_tracker']
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 def build_tracker(cfg, use_cuda):
     return StrongSORT(cfg.STRONGSORT.REID_CKPT, 
