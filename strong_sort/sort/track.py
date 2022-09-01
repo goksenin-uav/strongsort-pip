@@ -1,4 +1,3 @@
-# vim: expandtab:ts=4:sw=4
 import cv2
 import numpy as np
 from strong_sort.sort.kalman_filter import KalmanFilter
