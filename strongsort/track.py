@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from strongsort.sort.kalman_filter import KalmanFilter
+from strongsort.kalman_filter import KalmanFilter
 
 
 class TrackState:
