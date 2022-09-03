@@ -3,7 +3,7 @@
   StrongSort-Pip: Packaged version of StrongSort 
 </h1>
 <h4>
-    <img width="700" alt="teaser" src="doc/uav.gif">
+    <img width="700" alt="teaser" src="https://raw.githubusercontent.com/goksenin-uav/strongsort-pip/main/doc/uav.gif">
 </h4>
 </div>
 
