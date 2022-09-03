@@ -7,10 +7,9 @@ import cv2
 from collections import OrderedDict, namedtuple
 import gdown
 from os.path import exists as file_exists
-from deep.reid_model_factory import show_downloadeable_models, get_model_url, get_model_name
+from strongsort.reid_model_factory import show_downloadeable_models, get_model_url, get_model_name
 from yolov5.utils.general import LOGGER, check_version
-from torchreid.utils import FeatureExtractor
-
+from torchreid.torchreid.utils import FeatureExtractor
 
 def check_suffix(file='yolov5s.pt', suffix=('.pt',), msg=''):
     # Check file(s) for acceptable suffix
